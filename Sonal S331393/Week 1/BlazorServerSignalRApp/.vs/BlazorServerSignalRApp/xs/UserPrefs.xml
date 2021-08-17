@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="BlazorServerSignalRApp/Pages/Index.razor">
     <Files>
       <File FileName="BlazorServerSignalRApp/Hubs/ChatHub.cs" Line="13" Column="2" />
-      <File FileName="BlazorServerSignalRApp/Pages/Index.razor" Line="59" Column="9" />
-      <File FileName="BlazorServerSignalRApp/Program.cs" Line="18" Column="1" />
+      <File FileName="BlazorServerSignalRApp/Pages/Index.razor" Line="59" Column="30" />
+      <File FileName="BlazorServerSignalRApp/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

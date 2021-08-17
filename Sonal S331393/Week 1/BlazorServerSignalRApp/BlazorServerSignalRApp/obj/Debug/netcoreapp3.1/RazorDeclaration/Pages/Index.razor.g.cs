@@ -122,7 +122,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 
     public async ValueTask DisposeAsync()
     {
-        if (hubConnection is not null)
+        if (hubConnection != null)
         {
             await hubConnection.DisposeAsync();
         }

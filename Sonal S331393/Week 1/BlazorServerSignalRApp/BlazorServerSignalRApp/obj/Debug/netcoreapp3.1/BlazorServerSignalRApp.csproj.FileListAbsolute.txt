@@ -68,3 +68,4 @@
 /Users/sonal/Projects/BlazorServerSignalRApp/BlazorServerSignalRApp/obj/Debug/netcoreapp3.1/BlazorServerSignalRApp.dll
 /Users/sonal/Projects/BlazorServerSignalRApp/BlazorServerSignalRApp/obj/Debug/netcoreapp3.1/BlazorServerSignalRApp.pdb
 /Users/sonal/Projects/BlazorServerSignalRApp/BlazorServerSignalRApp/obj/Debug/netcoreapp3.1/BlazorServerSignalRApp.genruntimeconfig.cache
+/Users/sonal/Projects/BlazorServerSignalRApp/BlazorServerSignalRApp/obj/Debug/netcoreapp3.1/BlazorServerSignalRApp.csproj.AssemblyReference.cache
