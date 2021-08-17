@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iwwHXaUJNt8yW2SU0S5anqbPQKAjmC70f+ZGoL+PMUvj7GYnibMoPwDQaG79lFAL+k7xBQK1qPlMxYWHi94ZHA==",
+  "dgSpecHash": "X/8FL1GxL2iCvSICE0eWWitut2JBcu/6HqyYT+nOD/FnQasidg74tqkAe+yI7Xb8kF5eiXQbSGmzXjUiRYEJEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\BlazorServerSignalRApp.csproj",
+  "projectFilePath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 1\\BlazorServerSignalRApp\\BlazorServerSignalRApp\\BlazorServerSignalRApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.9\\microsoft.aspnetcore.connections.abstractions.5.0.9.nupkg.sha512",
     "C:\\Users\\d\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\5.0.9\\microsoft.aspnetcore.http.connections.client.5.0.9.nupkg.sha512",
