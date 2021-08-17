@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = BlazorServerSignalRApp
+build_property.ProjectDir = /Users/sonal/Projects/BlazorServerSignalRApp/BlazorServerSignalRApp/
