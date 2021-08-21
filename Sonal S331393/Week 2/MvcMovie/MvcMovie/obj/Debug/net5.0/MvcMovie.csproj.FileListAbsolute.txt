@@ -38,3 +38,5 @@
 /Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/obj/Debug/net5.0/MvcMovie.pdb
 /Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/obj/Debug/net5.0/MvcMovie.genruntimeconfig.cache
 /Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/obj/Debug/net5.0/MvcMovie.csproj.CopyComplete
+/Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/obj/Debug/net5.0/Razor/Views/HelloWorld/Index.cshtml.g.cs
+/Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/obj/Debug/net5.0/Razor/Views/HelloWorld/Welcome.cshtml.g.cs
