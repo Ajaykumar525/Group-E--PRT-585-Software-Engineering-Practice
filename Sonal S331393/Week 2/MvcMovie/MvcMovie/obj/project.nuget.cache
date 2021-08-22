@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hJnYSoF/cXT/iZ1HHMzzkZ7plkxIdJ/Ltqw1ZlcYwmnNu4fZasj/NXtGhXVgIBOhKkIbanauC1Sn7cxEzmdk9A==",
+  "dgSpecHash": "1XREp0ssBBjNNYBAF2msZ2FmfSAjbgDS3ytyV4eWcWVkVpP773Mi8ox0sNsNi0A00ceTbaG9DFZi7L7bMhS2AA==",
   "success": true,
-  "projectFilePath": "/Users/sonal/Documents/GitHub/Group-E--PRT-585-Software-Engineering-Practice/Group-E--PRT-585-Software-Engineering-Practice/Week 1/Sonal S331393/Week 2/MvcMovie/MvcMovie/MvcMovie.csproj",
+  "projectFilePath": "/Users/sonal/Projects/MvcMovie/MvcMovie/MvcMovie.csproj",
   "expectedPackageFiles": [
     "/Users/sonal/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sonal/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
