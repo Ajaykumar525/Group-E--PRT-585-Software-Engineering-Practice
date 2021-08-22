@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{322C5BF1-705F-43AA-AF2F-BC5FB94679B1}|Default">
+  <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Models/Movie.cs">
+    <Files>
+      <File FileName="MvcMovie/Controllers/MoviesController.cs" Line="50" Column="10" />
+      <File FileName="MvcMovie/appsettings.json" Line="7" Column="70" />
+      <File FileName="MvcMovie/Migrations/20210822041440_InitialCreate.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/Movies/Details.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/Movies/Index.cshtml" Line="17" Column="18" />
+      <File FileName="MvcMovie/Models/SeedData.cs" Line="3" Column="1" />
+      <File FileName="MvcMovie/Views/Movies/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Program.cs" Line="5" Column="1" />
+      <File FileName="MvcMovie/Models/Movie.cs" Line="10" Column="36" />
+      <File FileName="MvcMovie/Views/HelloWorld/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MvcMovie/Views/Movies/Edit.cshtml" Line="9" Column="15" />
+      <File FileName="MvcMovie/Startup.cs" Line="1" Column="1" />
+      <File FileName="MvcMovie/Models/MovieGenreViewModel.cs" Line="13" Column="2" />
+      <File FileName="MvcMovie/Views/Movies/Create.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvcMovie" expanded="True">
+            <Node name="MvcMovie" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Movie.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Movies" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
