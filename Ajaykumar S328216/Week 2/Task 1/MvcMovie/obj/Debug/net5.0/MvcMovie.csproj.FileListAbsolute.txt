@@ -38,3 +38,5 @@ C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajay
 C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajaykumar S328216\Week 2\Task 1\MvcMovie\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajaykumar S328216\Week 2\Task 1\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
 C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajaykumar S328216\Week 2\Task 1\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.AssemblyReference.cache
+C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajaykumar S328216\Week 2\Task 1\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+C:\Users\d\Documents\GitHub\Group-E--PRT-585-Software-Engineering-Practice-\Ajaykumar S328216\Week 2\Task 1\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
