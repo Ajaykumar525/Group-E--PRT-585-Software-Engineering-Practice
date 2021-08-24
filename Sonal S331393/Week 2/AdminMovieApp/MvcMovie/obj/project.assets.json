@@ -7439,14 +7439,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sonal/Desktop/MvcMovie/MvcMovie/MvcMovie.csproj",
+      "projectUniqueName": "/Users/sonal/Desktop/AdminMovieApp/MvcMovie/MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "/Users/sonal/Desktop/MvcMovie/MvcMovie/MvcMovie.csproj",
+      "projectPath": "/Users/sonal/Desktop/AdminMovieApp/MvcMovie/MvcMovie.csproj",
       "packagesPath": "/Users/sonal/.nuget/packages/",
-      "outputPath": "/Users/sonal/Desktop/MvcMovie/MvcMovie/obj/",
+      "outputPath": "/Users/sonal/Desktop/AdminMovieApp/MvcMovie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sonal/.config/NuGet/NuGet.Config"
+        "/Users/sonal/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
