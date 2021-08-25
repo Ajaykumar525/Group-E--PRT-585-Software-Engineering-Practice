@@ -71,6 +71,12 @@ namespace TheatreAdmin.Controllers
         // GET: Movies/Create
         public IActionResult Create()
         {
+            ViewBag.AllCategories = from m in _context.Category
+                                    orderby m.Name
+                                    select m.Name;
+
+            ViewBag.LanguageList = new string[] { "English", "Japanese", "Chinese", "Hindi", "German", "French"};
+
             return View();
         }
 
@@ -103,6 +109,13 @@ namespace TheatreAdmin.Controllers
             {
                 return NotFound();
             }
+
+            ViewBag.AllCategories = from m in _context.Category
+                                    orderby m.Name
+                                    select m.Name;
+
+            ViewBag.LanguageList = new string[] { "English", "Japanese", "Chinese", "Hindi", "German", "French" };
+
             return View(movie);
         }
 
