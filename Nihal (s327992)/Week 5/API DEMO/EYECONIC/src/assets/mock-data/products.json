@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Matte Black Full Rim Rectangle Sunglasses",
+    "brand": "Vincent Chase",
+    "price": 40,
+    "description": "Matte Black Red Grey Full Rim Rectangle Vincent Chase Polarized AIR.",
+    "image": "1.png"
+  },
+  {
+    "title": "Black Full Rim Rectangle Eyeglasses",
+    "brand": "John Jacobs",
+    "price": 28,
+    "description": "Black Full Rim Rectangle John Jacobs Supreme Steel",
+    "image": "2.png"
+  },
+  {
+    "title": "Pink Transparent Full Rim Round Eyeglasses",
+    "brand": "Lenskart Air",
+    "price": 52,
+    "description": "Pink Transparent Full Rim Round Lenskart Air Classic",
+    "image": "heme.png"
+  },
+  {
+    "title": "Matte Black Full Rim Hexagonal Sunglasses",
+    "brand": "Vincent Chase",
+    "price": 28,
+    "description": "Matte Black Grey Full Rim Hexagonal Vincent Chase Polarized Premium",
+    "image": "3.png"
+  },
+  {
+    "title": "Matte Golden Full Rim Square Sunglasses",
+    "brand": "Vincent Chase Polarized",
+    "price": 28,
+    "description": "Matte Gold Black Blue Gradient Full Rim Square Vincent Chase Polarized Premium",
+    "image": "4.png"
+  },
+  {
+    "title": "Maroon Full Rim Cat Eye Sunglasses",
+    "brand": "Fallon Colby",
+    "price": 18,
+    "description": "Maroon Gold Mirror Full Rim Cat Eye Fallon Colby MIRAGE",
+    "image": "5.png"
+  }
+]
