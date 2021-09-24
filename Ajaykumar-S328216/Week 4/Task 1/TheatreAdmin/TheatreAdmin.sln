@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheatreAdmin", "TheatreAdmin.csproj", "{34413F45-98C3-4671-A683-33C72819C42B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34413F45-98C3-4671-A683-33C72819C42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34413F45-98C3-4671-A683-33C72819C42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34413F45-98C3-4671-A683-33C72819C42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34413F45-98C3-4671-A683-33C72819C42B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1B8B6CB-DE22-4E68-8951-619BA1001B50}
+	EndGlobalSection
+EndGlobal
