@@ -48,6 +48,8 @@ namespace DAL.DataContext
 
         public DbSet<Teacher> Teachers { get; set; }
 
+        public DbSet<Publisher> Publisher { get; set; }
+
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

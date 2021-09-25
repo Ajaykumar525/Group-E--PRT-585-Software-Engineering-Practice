@@ -6,27 +6,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WEB_API.Models.Contracter;
+using WEB_API.Models.Publisher;
 
 namespace WEB_API.Controllers
 {
     [EnableCors("angular")]
     [Route("api/[controller]")]
     [ApiController]
-    public class ContracterController : ControllerBase
+    public class PublisherController : ControllerBase
     {
-        private IContracter_Service _Contracter_Service;
+        private IPublisher_Service _Publisher_Service;
 
-        public ContracterController(IContracter_Service Contracter_Service)
+        public PublisherController(IPublisher_Service Publisher_Service)
         {
-            _Contracter_Service = Contracter_Service;
+            _Publisher_Service = Publisher_Service;
         }
-        
+
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> AddContracter(string name)
+        public async Task<IActionResult> AddPublisher(string name)
         {
-            var result = await _Contracter_Service.AddContracter(name);
+            var result = await _Publisher_Service.AddPublisher(name);
             switch (result.success)
             {
                 case true:
@@ -39,9 +39,9 @@ namespace WEB_API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> GetAllContracters()
+        public async Task<IActionResult> GetAllPublishers()
         {
-            var result = await _Contracter_Service.GetAllContracter();
+            var result = await _Publisher_Service.GetAllPublisher();
             switch (result.success)
             {
                 case true:
@@ -54,9 +54,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> UpdateContracter(Contracter_Pass_Object Contracter)
+        public async Task<IActionResult> UpdatePublisher(Publisher_Pass_Object Publisher)
         {
-            var result = await _Contracter_Service.UpdateContracter(Contracter.id, Contracter.name);
+            var result = await _Publisher_Service.UpdatePublisher(Publisher.id, Publisher.name);
             switch (result.success)
             {
                 case true:
@@ -69,9 +69,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> DeleteContracter(Contracter_Pass_Object Contracter)
+        public async Task<IActionResult> DeletePublisher(Publisher_Pass_Object Publisher)
         {
-            var result = await _Contracter_Service.DeleteContracter(Contracter.id);
+            var result = await _Publisher_Service.DeletePublisher(Publisher.id);
             switch (result.success)
             {
                 case true:
