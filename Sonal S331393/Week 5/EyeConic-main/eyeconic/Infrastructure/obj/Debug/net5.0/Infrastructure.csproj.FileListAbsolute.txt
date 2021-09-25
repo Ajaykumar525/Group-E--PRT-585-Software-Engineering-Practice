@@ -1,0 +1,60 @@
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\kenus\OneDrive\Desktop\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\d\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Nihal\Documents\GitHub\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Admin\Desktop\New folder\EyeConic\eyeconic\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
