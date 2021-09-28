@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jYnx6J9NEpjvPkvQyunWb9WFRxZ614wbRZ1kuHeXDtwEafzdG9j8mVHNSumvNrPudeVsaf1kOQ/V/idiDQHdeg==",
+  "dgSpecHash": "AkEvCHgwMI1o/sbAFMaf68mWkPDIfku/MthUVIJBBKYZW/DSThaFayHEqJtgKFvw78m+WBIscw1SX/CtBZI6Qw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
+  "projectFilePath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\d\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
