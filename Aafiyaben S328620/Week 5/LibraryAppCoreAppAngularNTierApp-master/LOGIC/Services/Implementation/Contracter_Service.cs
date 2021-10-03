@@ -37,6 +37,8 @@ namespace LOGIC.Services.Implementation
                     {
                         Contracter_id = s.ContracterID,
                         name = s.Contracter_Name,
+                        contact = s.Contracter_ContactNumber,
+                        email = s. Contracter_EmailAddress
                     });
                 });
 
@@ -69,7 +71,9 @@ namespace LOGIC.Services.Implementation
                 result.result_set = new Contracter_ResultSet
                 {
                     name = Contracter.Contracter_Name,
-                    Contracter_id = Contracter.ContracterID
+                    Contracter_id = Contracter.ContracterID,
+                    contact = Contracter.Contracter_ContactNumber,
+                    email = Contracter.Contracter_EmailAddress
                 };
 
                 //SET SUCCESSFUL RESULT VALUES
@@ -94,7 +98,7 @@ namespace LOGIC.Services.Implementation
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public async Task<Generic_ResultSet<Contracter_ResultSet>> AddContracter(string name)
+        public async Task<Generic_ResultSet<Contracter_ResultSet>> AddContracter(string name, String contact, String email)
         {
             Generic_ResultSet<Contracter_ResultSet> result = new Generic_ResultSet<Contracter_ResultSet>();
             try
@@ -102,7 +106,10 @@ namespace LOGIC.Services.Implementation
                 //INIT NEW DB ENTITY OF Contracter
                 Contracter Contracter = new Contracter
                 {
-                    Contracter_Name = name
+                    Contracter_Name = name,
+                    Contracter_ContactNumber = contact,
+                    Contracter_EmailAddress = email,
+                    
                 };
 
                 //ADD Contracter TO DB
@@ -112,7 +119,10 @@ namespace LOGIC.Services.Implementation
                 Contracter_ResultSet ContracterAdded = new Contracter_ResultSet
                 {
                     name = Contracter.Contracter_Name,
-                    Contracter_id = Contracter.ContracterID
+                    Contracter_id = Contracter.ContracterID,
+                    contact = Contracter.Contracter_ContactNumber,
+                    email = Contracter.Contracter_EmailAddress,
+                    
                 };
 
                 //SET SUCCESSFUL RESULT VALUES
@@ -138,7 +148,7 @@ namespace LOGIC.Services.Implementation
         /// <param name="Contracter_id"></param>
         /// <param name="name"></param>
         /// <returns></returns>
-        public async Task<Generic_ResultSet<Contracter_ResultSet>> UpdateContracter(Int64 Contracter_id, string name)
+        public async Task<Generic_ResultSet<Contracter_ResultSet>> UpdateContracter(Int64 Contracter_id, string name, String contact, String email)
         {
             Generic_ResultSet<Contracter_ResultSet> result = new Generic_ResultSet<Contracter_ResultSet>();
             try
@@ -148,6 +158,9 @@ namespace LOGIC.Services.Implementation
                 {
                     ContracterID = Contracter_id,
                     Contracter_Name = name,
+                    Contracter_ContactNumber = contact,
+                    Contracter_EmailAddress = email,
+
                     //Contracter_ModifiedDate = DateTime.UtcNow 
                 };
 
@@ -158,7 +171,10 @@ namespace LOGIC.Services.Implementation
                 Contracter_ResultSet ContracterUpdated = new Contracter_ResultSet
                 {
                     name = Contracter.Contracter_Name,
-                    Contracter_id = Contracter.ContracterID
+                    Contracter_id = Contracter.ContracterID,
+                    contact = Contracter.Contracter_ContactNumber,
+                    email = Contracter.Contracter_EmailAddress
+
                 };
 
                 //SET SUCCESSFUL RESULT VALUES

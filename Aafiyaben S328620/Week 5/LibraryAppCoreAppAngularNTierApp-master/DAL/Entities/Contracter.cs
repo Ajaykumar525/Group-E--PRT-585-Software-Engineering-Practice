@@ -10,6 +10,10 @@ namespace DAL.Entities
     {
         public Int64 ContracterID { get; set; }
 
-        public string Contracter_Name { get; set; }
+        public String Contracter_Name { get; set; }
+
+        public String Contracter_ContactNumber { get; set; }
+
+        public String Contracter_EmailAddress { get; set; }
     }
 }

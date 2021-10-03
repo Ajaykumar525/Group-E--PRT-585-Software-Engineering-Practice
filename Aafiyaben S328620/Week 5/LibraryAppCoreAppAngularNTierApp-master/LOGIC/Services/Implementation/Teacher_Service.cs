@@ -17,6 +17,7 @@ namespace LOGIC.Services.Implementation
     {
         //Reference to our crud functions
         private ITeacher_Operations _Teacher_operations = new Teacher_Operations();
+        private Teacher EmailAddress;
 
         /// <summary>
         /// Obtains all the Teacher Teacheres that exist in the database
@@ -37,6 +38,7 @@ namespace LOGIC.Services.Implementation
                     {
                         Teacher_id = s.TeacherID,
                         name = s.Teacher_Name,
+                        
                     });
                 });
 
@@ -69,7 +71,8 @@ namespace LOGIC.Services.Implementation
                 result.result_set = new Teacher_ResultSet
                 {
                     name = Teacher.Teacher_Name,
-                    Teacher_id = Teacher.TeacherID
+                    Teacher_id = Teacher.TeacherID,
+                    
                 };
 
                 //SET SUCCESSFUL RESULT VALUES
@@ -102,7 +105,8 @@ namespace LOGIC.Services.Implementation
                 //INIT NEW DB ENTITY OF Teacher
                 Teacher Teacher = new Teacher
                 {
-                    Teacher_Name = name
+                    Teacher_Name = name,
+                   
                 };
 
                 //ADD Teacher TO DB

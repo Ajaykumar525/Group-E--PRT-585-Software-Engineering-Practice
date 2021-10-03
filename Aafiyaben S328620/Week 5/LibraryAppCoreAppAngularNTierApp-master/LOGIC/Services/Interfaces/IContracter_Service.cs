@@ -20,8 +20,10 @@ namespace LOGIC.Services.Interfaces
 
 
         /* Create/Edit/Delete methods */
-        Task<Generic_ResultSet<Contracter_ResultSet>> AddContracter(string name);
-        Task<Generic_ResultSet<Contracter_ResultSet>> UpdateContracter(Int64 id, string name);
+        Task<Generic_ResultSet<Contracter_ResultSet>> AddContracter(String name, String contact, String email);
+        Task<Generic_ResultSet<Contracter_ResultSet>> UpdateContracter(Int64 id, String name, String contact, String email);
+        
         Task<Generic_ResultSet<bool>> DeleteContracter(Int64 id);
+        
     }
 }
