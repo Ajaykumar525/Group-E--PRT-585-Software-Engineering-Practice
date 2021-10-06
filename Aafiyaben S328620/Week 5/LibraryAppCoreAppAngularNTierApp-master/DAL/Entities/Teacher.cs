@@ -11,5 +11,10 @@ namespace DAL.Entities
         public Int64 TeacherID { get; set; }
 
         public string Teacher_Name { get; set; }
+
+      
+
+       
+
     }
 }

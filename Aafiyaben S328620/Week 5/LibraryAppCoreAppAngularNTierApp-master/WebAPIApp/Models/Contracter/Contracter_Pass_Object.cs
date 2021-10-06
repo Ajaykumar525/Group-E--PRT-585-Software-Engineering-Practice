@@ -7,8 +7,11 @@ namespace WEB_API.Models.Contracter
 {
     public class Contracter_Pass_Object
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        public Int64 id { get; set; }
+        public String name { get; set; }
+        public String contact { get; set; }
+        public String email { get; set; }
+
 
     }
 }

@@ -6,5 +6,6 @@ namespace LOGIC.Services.Models.Teacher
     {
         public Int64 Teacher_id { get; set; }
         public String name { get; set; }
+       
     }
 }

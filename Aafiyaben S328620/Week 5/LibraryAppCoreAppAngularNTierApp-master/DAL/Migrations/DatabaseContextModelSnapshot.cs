@@ -116,6 +116,12 @@ namespace DAL.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Contracter_ContactNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Contracter_EmailAddress")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Contracter_Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -158,13 +164,7 @@ namespace DAL.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Publisher_Book")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Publisher_Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Publisher_Rank")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("PublisherID");

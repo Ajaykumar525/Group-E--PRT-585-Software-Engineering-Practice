@@ -22,11 +22,11 @@ namespace WEB_API.Controllers
             _Contracter_Service = Contracter_Service;
         }
         
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> AddContracter(string name)
+        public async Task<IActionResult> AddContracter(string name, string contact, string email)
         {
-            var result = await _Contracter_Service.AddContracter(name);
+            var result = await _Contracter_Service.AddContracter(name, contact, email);
             switch (result.success)
             {
                 case true:
@@ -56,7 +56,7 @@ namespace WEB_API.Controllers
         [Route("[action]")]
         public async Task<IActionResult> UpdateContracter(Contracter_Pass_Object Contracter)
         {
-            var result = await _Contracter_Service.UpdateContracter(Contracter.id, Contracter.name);
+            var result = await _Contracter_Service.UpdateContracter(Contracter.id, Contracter.name, Contracter.contact, Contracter.email);
             switch (result.success)
             {
                 case true:
@@ -67,7 +67,7 @@ namespace WEB_API.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
         public async Task<IActionResult> DeleteContracter(Contracter_Pass_Object Contracter)
         {
