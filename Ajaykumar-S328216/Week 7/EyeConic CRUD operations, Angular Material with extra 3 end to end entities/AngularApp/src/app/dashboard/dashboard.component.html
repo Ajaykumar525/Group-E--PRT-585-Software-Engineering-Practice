@@ -1,0 +1,62 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          
+          <div *ngFor="let product of productList" class="col-md-4">
+              <div class="card card-chart">
+                      <a href="javascript:void(0)">
+                          <img class="img" src="./assets/img/{{product.name}}.png" />
+                      </a>
+                  <div class="card-body">
+                      <h4 class="card-title">{{product.name}}</h4>
+                      <button mat-raised-button type="submit" class="btn btn-danger pull-left">Add to Cart</button>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Add New Product</h4>
+                      <p class="card-category"> These are the products present in store at the moment</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                      
+                        <form #product = "ngForm" (ngSubmit) = "createProduct(product.value)">
+
+                        
+                            <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                    <select name="name" placeholder="Select a product to add" class="form-control" ngModel>
+                                        <option *ngFor="let item of listItems"  value={{item}}>{{item}}</option>
+                                    </select>
+                                  </th>
+                                  <th>
+                                      <input type="text" name="price" placeholder="Product Price" class="form-control" ngModel>
+                                  </th>
+                                  <th>
+                                      <input type="text" name="quantity" placeholder="Quantity" class="form-control" ngModel>
+                                  </th>
+                                  <th>
+                                      <button mat-raised-button type="submit" class="badge badge-danger mr-2">
+                                            Create
+                                        </button>
+                                  </th>
+                              </thead>
+                            </table>
+                        </form>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>

@@ -1,0 +1,115 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title">Add New User</h4>
+                      <p class="card-category">Add user details</p>
+                  </div>
+                  <div class="card-body">
+                      <form #user = "ngForm" (ngSubmit) = "createUser(user.value)" class="k-form">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput name="name" placeholder="Enter your full name" ngModel>
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput name="contact" placeholder="Enter your contact number" ngModel>
+                                  </mat-form-field>
+                              </div>
+                              <div class="col-md-6">
+                                  <mat-form-field class="example-full-width">
+                                    <input matInput name="email" placeholder="Enter your email address" type="email" ngModel>
+                                  </mat-form-field>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <mat-form-field class="example-full-width">
+                                  <input matInput name="address" placeholder="Enter your full address" type="text" ngModel>
+                                </mat-form-field>
+                              </div>
+                          </div>
+                          <button mat-raised-button type="submit" class="btn btn-danger pull-right">Add User</button>
+                          <div class="clearfix"></div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Users List</h4>
+                      <p class="card-category"> These are the users registered with our store</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                      
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      User ID
+                                  </th>
+                                  <th>
+                                      User Name
+                                  </th>
+                                  <th>
+                                      Contact Number
+                                  </th>
+                                  <th>
+                                      Email Id
+                                  </th>
+                                  <th>
+                                      Postal Address
+                                  </th>
+                                  <th>
+                                      Actions
+                                  </th>
+                              </thead>
+                              <tbody>
+                              <ng-container *ngFor="let user of userList;">
+                                  <tr>
+                                      <td>
+                                          <input type="text" name="id" class="form-control" [(ngModel)]="user.id">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="name" class="form-control" [(ngModel)]="user.name">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="contact" class="form-control" [(ngModel)]="user.contact">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="email" class="form-control" [(ngModel)]="user.email">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="address" class="form-control" [(ngModel)]="user.address">
+                                      </td>
+                                      <td>
+                                          <button mat-raised-button class="badge badge-danger mr-2" (click)="deleteUser(user.id)">
+                                            Delete
+                                          </button>
+                                          <button mat-raised-button class="badge badge-primary mr-2" (click)="updateUser(user)">
+                                            Update
+                                          </button>
+                                      </td>
+                                  </tr>
+                                </ng-container> 
+                              </tbody>
+                            </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
