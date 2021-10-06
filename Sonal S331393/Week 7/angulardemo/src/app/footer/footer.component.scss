@@ -1,0 +1,20 @@
+.example-container .mat-form-field + .mat-form-field {
+  margin-left: 10px;
+}
+
+.mat-success {
+  background-color: lightseagreen;
+  color: #fff;
+}
+
+.text1 {
+  color: lightslategrey;
+}
+
+.text2 {
+  color: lightslategrey;
+}
+::placeholder{
+  color: fade-out($color: lightseagreen, $amount: 0)
+}
+
