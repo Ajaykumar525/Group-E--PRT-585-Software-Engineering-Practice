@@ -1,0 +1,83 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Categories List</h4>
+                      <p class="card-category"> These are the categories present in store at the moment</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      Category ID
+                                  </th>
+                                  <th>
+                                      Category Name
+                                  </th>
+                                  <th>
+                                      For
+                                  </th>
+                                  <th>
+                                      Actions
+                                  </th>
+                              </thead>
+                              <tbody>
+                              <ng-container *ngFor="let category of categoryList;">
+                                  <tr>
+                                      <td>
+                                          <input type="text" name="id" class="form-control" [(ngModel)]="category.category_id">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="name" class="form-control" [(ngModel)]="category.name">
+                                      </td>
+                                      <td>
+                                          <input type="text" name="Category_gender" class="form-control" [(ngModel)]="category.category_gender">
+                                      </td>
+                                      <td>
+                                        <button mat-raised-button class="badge badge-danger mr-2" (click)="deleteCategory(category.category_id)">
+                                          Delete
+                                        </button>
+                                        <button mat-raised-button class="badge badge-primary mr-2" (click)="updateCategory(category)">
+                                          Update
+                                        </button>
+                                    </td>
+
+                                  </tr>
+                                </ng-container>
+                              </tbody>
+                            </table>
+
+                        <form #category = "ngForm" (ngSubmit) = "createCategory(category.value)">
+
+
+                            <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      <input type="text" name="id" class="form-control" disabled>
+                                  </th>
+                                  <th>
+                                      <input type="text" name="name" placeholder="Category Name" class="form-control" ngModel>
+                                  </th>
+                                  <th>
+                                      <input type="text" name="category_gender" placeholder="Category Gender" class="form-control" ngModel>
+                                  </th>
+                                  <th>
+                                      <button mat-raised-button type="submit" class="badge badge-accent mr-2">
+                                            Add New Category
+                                        </button>
+                                  </th>
+                              </thead>
+                            </table>
+                        </form>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj": {}
+    "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj": {
+    "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
         "projectName": "TheatreAdmin",
-        "projectPath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
+        "projectPath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\TheatreAdmin.csproj",
         "packagesPath": "C:\\Users\\d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar S328216\\Week 2\\Task 2\\TheatreAdmin\\obj\\",
+        "outputPath": "C:\\Users\\d\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice-\\Ajaykumar-S328216\\Week 2\\Task 2\\TheatreAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\d\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -109,6 +109,48 @@ namespace DAL.Migrations
                     b.ToTable("ApplicationStatuses");
                 });
 
+            modelBuilder.Entity("DAL.Entities.Book", b =>
+                {
+                    b.Property<long>("BookId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Code")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("BookId");
+
+                    b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("DAL.Entities.Computer", b =>
+                {
+                    b.Property<long>("ComputerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Brand")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ComputerName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastUser")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ComputerId");
+
+                    b.ToTable("Computers");
+                });
+
             modelBuilder.Entity("DAL.Entities.Grade", b =>
                 {
                     b.Property<long>("GradeID")
@@ -149,6 +191,24 @@ namespace DAL.Migrations
                     b.HasKey("StudentID");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("DAL.Entities.Teacher", b =>
+                {
+                    b.Property<long>("TeacherId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Experience")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TeacherId");
+
+                    b.ToTable("Teachers");
                 });
 
             modelBuilder.Entity("DAL.Entities.Application", b =>
