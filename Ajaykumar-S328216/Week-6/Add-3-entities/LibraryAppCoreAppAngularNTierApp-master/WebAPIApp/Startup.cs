@@ -39,6 +39,9 @@ namespace WebAPIApp
             #region CUSTOM SERVICES [D-I]
 
             services.AddScoped<IStudent_Service, Student_Service>();
+            services.AddScoped<ITeacher_Service, Teacher_Service>();
+            services.AddScoped<IBook_Service, Book_Service>();
+            services.AddScoped<IComputer_Service, Computer_Service>();
             //services.AddScoped<IApplicant_Service, Applicant_Service>();
             //services.AddScoped<IGrade_Service, Grade_Service>();
             //services.AddScoped<IApplication_Service, Application_Service>();
