@@ -1,16 +1,41 @@
-import { Component, OnInit, Input } from '@angular/core';
-import {Product } from '../products';
+import { Http } from '@angular/http';
+import { ApiService } from './../../api.service';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+
 @Component({
   selector: 'app-products-list',
-  templateUrl: './products-list.component.html',
-  styleUrls: ['./products-list.component.css']
+  templateUrl: './products/products-list/products-list.component',
+  
 })
-export class ProductsListComponent implements OnInit {
-    @Input() products:Product[];
-    @Input() productsLabel:string;
-  constructor() { }
+export class ProductListComponent implements OnInit {
+  contracterList;
+  constructor(private apiService: ApiService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.apiService.getAllContracter().subscribe((response: any)=>
+    {
+      this.contracterList = response.result_set;
+      console.log(this.contracterList);
+    }
+    );
   }
 
+  deleteTeacher(Id): void {
+    this.apiService.deleteContracter(Id)
+      .subscribe(
+        response => {
+          console.log(response);
+        }
+        );
+  }
+
+  createTeacher(name, exp): void {
+    this.apiService.createContracter(name, exp)
+      .subscribe(
+        response => {
+          console.log(response);
+        }
+        );
+  }
 }

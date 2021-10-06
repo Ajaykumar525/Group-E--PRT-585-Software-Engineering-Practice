@@ -1,0 +1,67 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-danger">
+                      <h4 class="card-title ">Daily Users List</h4>
+                      <p class="card-category"> These are the daily users present in store.</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+                                      IDS
+                                  </th>
+                                  <th>
+                                      Name
+                                  </th>
+                                  <th>
+                                      Experience
+                                  </th>
+                                  <th>
+                                      Actions
+                                  </th>
+                              </thead>
+                              <tbody *ngFor="let teacher of teacherList">
+                                  <tr>
+                                      <td>
+                                          {{teacher.teacher_id}}
+                                      </td>
+                                      <td>
+                                          {{teacher.name}}
+                                      </td>
+                                      <td>
+                                          {{teacher.experience}}
+                                      </td>
+                                      <td>
+                                          <button class="badge badge-danger mr-2" (click)="deleteTeacher(teacher.teacher_id)">
+                                            Delete
+                                          </button>
+                                      </td>
+                                  </tr>
+                              </tbody>
+                              <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="text" class="textbox" name="name" />
+                                    </td>
+                                    <td>
+                                        <input type="text" class="textbox" name="experience" />
+                                    </td>
+                                    <td>
+                                        <button class="badge badge-danger mr-2">
+                                            Create
+                                        </button>
+                                    </td>
+                                </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
