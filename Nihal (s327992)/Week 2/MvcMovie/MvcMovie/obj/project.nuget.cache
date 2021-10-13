@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/A/7NQEEoJEx4tIRfKjxWP+NeMKmNG9krD5kiWbmfzc0GVWLublAbhKcCNT9GrsDHF4IIlSmwxOZAk6S5wR8yQ==",
+  "dgSpecHash": "+p+sLho1UuWHQXQRl+T/nHlijW2aiMFESU5i+TMCyq5xixFMW87cvBik0rgTcGJbX+KtC+k3/FiHPgOwbPsMKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+  "projectFilePath": "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nihal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Nihal\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
