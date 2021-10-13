@@ -52,7 +52,7 @@ namespace WEB_API.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("[action]")]
         public async Task<IActionResult> UpdateContracter(Contracter_Pass_Object Contracter)
         {
@@ -69,9 +69,9 @@ namespace WEB_API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> DeleteContracter(Contracter_Pass_Object Contracter)
+        public async Task<IActionResult> DeleteContracter(int id)
         {
-            var result = await _Contracter_Service.DeleteContracter(Contracter.id);
+            var result = await _Contracter_Service.DeleteContracter(id);
             switch (result.success)
             {
                 case true:
