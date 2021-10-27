@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Nihal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nihal\\source\\repos\\MvcMovie\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\Nihal\\Documents\\GitHub\\Group-E--PRT-585-Software-Engineering-Practice\\Nihal (s327992)\\Week 2\\MvcMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nihal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
